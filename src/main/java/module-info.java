@@ -5,7 +5,7 @@ import com.guicedee.vertx.sessionpertransaction.StartUnitOfWork;
 
 module com.guicedee.vertx.sessionpertransaction {
     requires com.guicedee.guicedpersistence;
-    requires com.guicedee.client;
+    requires transitive com.guicedee.client;
 
     provides IOnCallScopeEnter with StartUnitOfWork;
     provides IOnCallScopeExit with EndUnitOfWork;

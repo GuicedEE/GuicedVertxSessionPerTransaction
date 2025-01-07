@@ -9,7 +9,7 @@
         <version>2.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.guicedee.servlets</groupId>
+    <groupId>com.guicedee</groupId>
     <artifactId>guiced-vertx-sessionpertransaction</artifactId>
     <packaging>jar</packaging>
     <version>2.0.0-SNAPSHOT</version>
@@ -24,7 +24,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.guicedee.servlets</groupId>
+            <groupId>com.guicedee</groupId>
             <artifactId>guiced-vertx</artifactId>
         </dependency>
 
