@@ -29,13 +29,13 @@
         </dependency>
 
         <dependency>
-            <groupId>com.guicedee.persistence</groupId>
-            <artifactId>guiced-persistence</artifactId>
+            <groupId>com.guicedee</groupId>
+            <artifactId>guice-inject-client</artifactId>
         </dependency>
 
         <dependency>
             <groupId>com.guicedee</groupId>
-            <artifactId>guice-inject-client</artifactId>
+            <artifactId>guiced-vertx-persistence</artifactId>
         </dependency>
 
         <dependency>
@@ -53,7 +53,6 @@
         <dependency>
             <groupId>com.guicedee</groupId>
             <artifactId>guice-injection</artifactId>
-            <scope>test</scope>
         </dependency>
 
 
